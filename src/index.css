@@ -1,0 +1,65 @@
+.navbar,footer{
+  background-color: #2C3E50;
+}
+.icon2{
+  width: 50px;
+  height: 50px;
+
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.footer-feet{
+  background-color: #1A252F;
+}
+header,.about{
+  background-color: #1ABC9C;
+}
+.icon-home{
+  position: relative;
+}
+.icon-home::after{
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 58%;
+  height: 4px;
+  width: 36%;
+  background-color: #ffff;
+}
+.icon-home::before{
+  position: absolute;
+  content: "";
+  top: 30%;
+  right: 58%;
+  height: 4px;
+  width: 35%;
+  background-color: #ffff;
+}
+.portfolio-item{
+  position: relative;
+}
+.fa-plus{
+  font-size: 70px;
+font-weight: bolder;
+color: #fff;
+}
+.plus{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1ABC9C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all .5s;
+}
+.portfolio-item:hover .plus{
+  opacity: 1;
+}
+.send{
+  color: #fff;
+  background-color: #1ABC9C;
+}
